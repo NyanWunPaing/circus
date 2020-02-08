@@ -13,7 +13,12 @@ then
 fi
 
 # compile the code into the bin folder, terminates if error occurred
+<<<<<<< HEAD
 if ! javac -cp ../src -Xlint:none -d ../bin ../src/main/java/circus/*.java ../src/main/java/circus/animal/*.java ../src/main/java/circus/stuff/*.java
+=======
+if ! javac  -cp ..\src -Xlint:none -d ..\bin ..\src\main\java\circus\*.java ..\src\main\java\circus\animal\*.java ..\src\main\java\circus\stuff\*.java
+
+>>>>>>> in-lecture
 then
     echo "********** BUILD FAILURE **********"
     exit 1
